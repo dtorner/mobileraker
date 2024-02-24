@@ -66,6 +66,7 @@ class MyApp extends ConsumerWidget {
         Locale('af'),
         Locale('de'),
         Locale('en'),
+        Locale('es', 'ES'),
         Locale('fr'),
         Locale('hu'),
         Locale('it'),
