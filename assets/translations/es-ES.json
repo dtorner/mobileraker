@@ -1,61 +1,61 @@
 {
   "general": {
-    "pause": "Pause",
-    "resume": "Resume",
-    "connected": "Connected",
+    "pause": "Pausar",
+    "resume": "Resumir",
+    "connected": "Conectado",
     "off": "Off",
     "on": "On",
-    "none": "None",
-    "add": "Add",
-    "create": "Create",
-    "rename": "Rename",
-    "remove": "Remove",
+    "none": "Ninguno",
+    "add": "Añadir",
+    "create": "Crear",
+    "rename": "Renombrar",
+    "remove": "Quitar",
     "set": "Set",
-    "use": "Use",
-    "restart": "Restart",
-    "shutdown": "Shutdown",
+    "use": "Usar",
+    "restart": "Reiniciar",
+    "shutdown": "Apagar",
     "firmware": "Firmware",
     "fetching": "Fetching",
-    "loading": "Loading",
-    "unknown": "Unknown",
+    "loading": "Cargando",
+    "unknown": "Desconocido",
     "disabled": "Disabled",
-    "confirm": "Confirm",
-    "cancel": "Cancel",
-    "close": "Close",
-    "edit": "Edit",
+    "confirm": "Confirmar",
+    "cancel": "Cancelar",
+    "close": "Cerrar",
+    "edit": "Editar",
     "preview": "Preview",
-    "retry": "Retry",
+    "retry": "Reintentar",
     "supported": "Supported",
     "unsupported": "Unsupported",
-    "details": "Details",
+    "details": "Detalles",
     "google_play": "GooglePlay",
     "ios_store": "AppStore",
-    "active": "Active",
-    "canceled": "Canceled",
-    "monthly": "Monthly",
+    "active": "Activo",
+    "canceled": "Cancelado",
+    "monthly": "Mensual",
     "restore": "Restore",
-    "accept": "Accept",
-    "abort": "Abort",
+    "accept": "Aceptar",
+    "abort": "Abortar",
     "offset": "Offset",
-    "valid": "Valid",
-    "invalid": "Invalid",
-    "free": "Free",
+    "valid": "Válido",
+    "invalid": "Inválido",
+    "free": "Libre",
     "one_time": "One time",
-    "delete": "Delete",
-    "clear": "Clear",
+    "delete": "Borrar",
+    "clear": "Limpiar",
     "unlink": "Unlink",
-    "save": "Save",
-    "apply": "Apply",
-    "completed": "Completed",
-    "activate": "Activate"
+    "save": "Salvar",
+    "apply": "Aplicar",
+    "completed": "Completado",
+    "activate": "Activar"
   },
   "pages": {
     "dashboard": {
       "title": "Dashboard",
-      "ems_btn": "Emergency-Stop",
+      "ems_btn": "Parada de Emergencia",
       "server_status": {
         "unavailable": "No Server available",
-        "available": "Server State is {} and Klippy is {}"
+        "available": "El estado del servidor es {} y Klippy está {}"
       },
       "fetching_printer": "@:general.fetching printer…",
       "general": {
@@ -63,38 +63,38 @@
           "reset": "Reset",
           "reprint": "Reprint",
           "printing_for": "Printing: {}",
-          "speed": "Speed",
-          "layer": "Layer",
+          "speed": "Velocidad",
+          "layer": "Capa",
           "eta": "ETA",
           "current_object": "Current Object",
           "elapsed": "Elapsed",
-          "flow": "Flow",
-          "filament": "Filament",
+          "flow": "Flujo",
+          "filament": "Filamento",
           "filament_tooltip": "Used {} % of Filament, that is {} m of the {} m predicted.",
-          "eta_tooltip": "Remaining time:\nAVG: {avg}\nSlicer: {slicer}\nFile: {file}\nFilament: {filament}",
-          "remaining": "Remaining"
+          "eta_tooltip": "Tiempo restante:\nAVG: {avg}\nSlicer: {slicer}\nArchivo: {file}\nFilamento: {filament}",
+          "remaining": "Restante"
         },
         "cam_card": {
           "webcam": "Webcam",
           "fullscreen": "Fullscreen"
         },
         "temp_card": {
-          "title": "Temperature Controls",
+          "title": "Control de Temperatura",
           "presets_btn": "Presets",
-          "hotend": "Hotend",
-          "bed": "Bed",
+          "hotend": "Extrusor",
+          "bed": "Cama",
           "temp_presets": "Temperature presets",
-          "sensors": "Sensors",
-          "heater_on": "{} °C target",
+          "sensors": "Sensores",
+          "heater_on": "{} °C objetivo",
           "btn_thermistor": "Sensor"
         },
         "temp_preset_card": {
-          "cooloff": "Cooloff",
+          "cooloff": "Enfriar",
           "h_temp": "@:pages.dashboard.general.temp_card.hotend {}°C",
           "b_temp": "@:pages.dashboard.general.temp_card.bed {}°C"
         },
         "move_card": {
-          "title": "Move Axis",
+          "title": "Mover Eje",
           "home_xy_tooltip": "Home X and Y axes",
           "home_z_tooltip": "Home Z axis",
           "home_all_tooltip": "Home all axes",
@@ -118,30 +118,30 @@
           "bsa_btn": "Bed Screw Adjust",
           "save_tooltip": "Save calibration results",
           "save_btn": "Save Config",
-          "more_btn": "More",
+          "more_btn": "Mas",
           "homed": "Homed Axes"
         },
         "baby_step_card": {
           "title": "Micro-Step Z-Axis",
-          "z_offset": "Z-Offset"
+          "z_offset": "Offset-Z"
         },
-        "restart_klipper": "Restart Klipper",
+        "restart_klipper": "Reiniciar Klipper",
         "restart_mcu": "@:general.restart @:general.firmware"
       },
       "control": {
         "fan_card": {
           "title": {
-            "zero": "Fan",
-            "one": "Fan",
-            "other": "Fans"
+            "zero": "Ventilador",
+            "one": "Ventilador",
+            "other": "Ventiladores"
           },
           "part_fan": "Part Fan",
           "static_fan_btn": "Fan"
         },
         "extrude_card": {
-          "title": "Extruder",
-          "extrude": "Extrude",
-          "retract": "Retract",
+          "title": "Extrusor",
+          "extrude": "Extruir",
+          "retract": "Retraer",
           "extrude_len": "@:pages.dashboard.control.extrude_card.extrude length",
           "cold_extrude_error": "Extruder did not reach min_extrude_temp of {}°C yet!"
         },
@@ -150,10 +150,10 @@
         },
         "pin_card": {
           "title": {
-            "zero": "Output Pin",
-            "one": "Output Pin",
-            "two": "Output Pins",
-            "other": "Output Pins"
+            "zero": "Pin de salida",
+            "one": "Pin de salida",
+            "two": "Pins de salida",
+            "other": "Pins de salida"
           },
           "pin_btn": "Pin"
         },
@@ -163,14 +163,14 @@
         },
         "multipl_card": {
           "title": "Multipliers",
-          "flow": "Flow",
+          "flow": "Flujo",
           "press_adv": "Pressure Advance",
           "smooth_time": "Smooth Time"
         },
         "limit_card": {
-          "title": "Limits",
-          "velocity": "Velocity",
-          "accel": "Acceleration",
+          "title": "Limites",
+          "velocity": "Velocidad",
+          "accel": "Aceleración",
           "sq_corn_vel": "Square Corner Velocity",
           "accel_to_decel": "Accel to Decel"
         },
