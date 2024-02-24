@@ -1,51 +1,51 @@
 {
   "general": {
-    "pause": "pausar",
+    "pause": "Pausar",
     "resume": "Resumir",
-    "connected": "conectado",
-    "off": "Apagado",
-    "on": "En",
+    "connected": "Conectado",
+    "off": "Off",
+    "on": "On",
     "none": "Ninguno",
     "add": "Añadir",
-    "create": "crear",
+    "create": "Crear",
     "rename": "Renombrar",
     "remove": "Quitar",
     "set": "Colocar",
-    "use": "usar",
+    "use": "Usar",
     "restart": "Reiniciar",
     "shutdown": "Apagar",
-    "firmware": "firmware",
-    "fetching": "Atractivo",
+    "firmware": "Firmware",
+    "fetching": "Buscando",
     "loading": "Cargando",
     "unknown": "Desconocido",
     "disabled": "Desactivado",
     "confirm": "Confirmar",
     "cancel": "Cancelar",
-    "close": "cerrar",
+    "close": "Cerrar",
     "edit": "Editar",
-    "preview": "Avance",
+    "preview": "Previsualización",
     "retry": "Reintentar",
     "supported": "Soportado",
     "unsupported": "No compatible",
     "details": "Detalles",
-    "google_play": "Google Play",
-    "ios_store": "Tienda de aplicaciones",
+    "google_play": "GooglePlay",
+    "ios_store": "AppStore",
     "active": "Activo",
-    "canceled": "cancelado",
-    "monthly": "mensual",
+    "canceled": "Cancelado",
+    "monthly": "Mensual",
     "restore": "Restaurar",
     "accept": "Aceptar",
     "abort": "Abortar",
-    "offset": "Compensar",
-    "valid": "válido",
+    "offset": "Offset",
+    "valid": "Válido",
     "invalid": "Inválido",
     "free": "Libre",
     "one_time": "Una vez",
     "delete": "Borrar",
     "clear": "Limpiar",
     "unlink": "Desconectar",
-    "save": "salvar",
-    "apply": "aplicar",
+    "save": "Salvar",
+    "apply": "Aplicar",
     "completed": "Completado",
     "activate": "Activar"
   },
@@ -57,21 +57,21 @@
         "unavailable": "Ningún servidor disponible",
         "available": "El estado del servidor es {} y Klippy está {}"
       },
-      "fetching_printer": "@:general.buscando impresora…",
+      "fetching_printer": "@:general.fetching impresora…",
       "general": {
         "print_card": {
           "reset": "Reiniciar",
           "reprint": "Reimpresión",
           "printing_for": "Impresión: {}",
-          "speed": "velocidad",
+          "speed": "Velocidad",
           "layer": "Capa",
           "eta": "ETA",
           "current_object": "Objeto actual",
           "elapsed": "Transcurrido",
           "flow": "Flujo",
-          "filament": "filamento",
-          "filament_tooltip": "Se utilizó {} % del filamento, es decir, {} m de los {} m previstos.",
-          "eta_tooltip": "Tiempo restante:\n",
+          "filament": "Filamento",
+          "filament_tooltip": "Se utilizó el {} % del filamento, es decir, {} m de los {} m previstos.",
+          "eta_tooltip": "Tiempo restante:\nAVG: {avg}\nSlicer: {slicer}\nArchivo: {file}\nFilamento: {filament}",
           "remaining": "Restante"
         },
         "cam_card": {
@@ -81,7 +81,7 @@
         "temp_card": {
           "title": "Control de temperatura",
           "presets_btn": "Preajustes",
-          "hotend": "extrusor",
+          "hotend": "Extrusor",
           "bed": "Cama",
           "temp_presets": "Preajustes de temperatura",
           "sensors": "Sensores",
@@ -94,7 +94,7 @@
           "b_temp": "@:pages.dashboard.general.temp_card.bed {}°C"
         },
         "move_card": {
-          "title": "Eje de mudanza",
+          "title": "Mover Ejes",
           "home_xy_tooltip": "Inicio Ejes X e Y",
           "home_z_tooltip": "Inicio Eje Z",
           "home_all_tooltip": "Inicio todos los ejes",
@@ -105,11 +105,11 @@
           "mesh_btn": "Malla",
           "m84_tooltip": "Desactivar motores",
           "m84_btn": "M84",
-          "step_size": "Numero de pie",
+          "step_size": "Numero de pasos",
           "stc_tooltip": "Ejecutar cálculo de inclinación de tornillos",
           "stc_btn": "STC",
           "ztilt_tooltip": "Ejecute la calibración de inclinación Z",
-          "ztilt_btn": "zInclinación",
+          "ztilt_btn": "Inclinación-Z",
           "poff_tooltip": "Ejecute la calibración de compensación de la sonda",
           "poff_btn": "Calibración de la sonda",
           "zoff_tooltip": "Ejecute la calibración de compensación del tope final Z",
@@ -119,28 +119,28 @@
           "save_tooltip": "Guardar resultados de calibración",
           "save_btn": "Guardar configuración",
           "more_btn": "Mas",
-          "homed": "Hachas apuntadas"
+          "homed": "Ejes iniciados"
         },
         "baby_step_card": {
-          "title": "Eje Z de micropasos",
+          "title": "Micropasos Eje Z",
           "z_offset": "Desplazamiento-Z"
         },
         "restart_klipper": "Reiniciar Klipper",
-        "restart_mcu": "@:general.reiniciar @:general.firmware"
+        "restart_mcu": "@:general.restart @:general.firmware"
       },
       "control": {
         "fan_card": {
           "title": {
             "zero": "Ventilador",
             "one": "Ventilador",
-            "other": "ventiladores"
+            "other": "Ventiladores"
           },
-          "part_fan": "Parte ventilador",
-          "static_fan_btn": "Admirador"
+          "part_fan": "Ventilador de pieza",
+          "static_fan_btn": "Ventilador"
         },
         "extrude_card": {
-          "title": "extrusor",
-          "extrude": "extruir",
+          "title": "Extrusor",
+          "extrude": "Extruir",
           "retract": "Retraer",
           "extrude_len": "@:pages.dashboard.control.extrude_card.extrusión longitud",
           "cold_extrude_error": "¡La extrusora aún no alcanzó min_extrude_temp de {}°C!"
@@ -155,22 +155,22 @@
             "two": "Pines de salida",
             "other": "Pines de salida"
           },
-          "pin_btn": "Alfiler"
+          "pin_btn": "Pin"
         },
         "power_card": {
           "title": "Panel de energia",
-          "pin_btn": "Alfiler"
+          "pin_btn": "Pin"
         },
         "multipl_card": {
           "title": "Multiplicadores",
           "flow": "Flujo",
           "press_adv": "Avance de presión",
-          "smooth_time": "Tiempo suave"
+          "smooth_time": "Tiempo suavizado"
         },
         "limit_card": {
-          "title": "límites",
-          "velocity": "velocidad",
-          "accel": "aceleración",
+          "title": "Límites",
+          "velocity": "Velocidad",
+          "accel": "Aceleración",
           "sq_corn_vel": "Velocidad de esquina cuadrada",
           "accel_to_decel": "Acelerar a desacelerar"
         },
@@ -179,7 +179,7 @@
           "retract_length": "Longitud de retracción",
           "retract_speed": "Velocidad de retracción",
           "extra_unretract_length": "Longitud extra sin retracción",
-          "unretract_speed": "Velocidad de retirada"
+          "unretract_speed": "Velocidad sin retracción"
         },
         "bed_mesh_card": {
           "title": "Malla de cama",
@@ -191,9 +191,9 @@
           }
         },
         "spoolman_card": {
-          "title": "carretero",
-          "no_spool": "No se seleccionó ningún carrete.\n",
-          "select_spool": "Seleccionar carrete",
+          "title": "Spoolman",
+          "no_spool": "No se seleccionó ningúna bobina.\nNo se seguirá el uso del filamento.",
+          "select_spool": "Seleccionar Bobina",
           "used": "Usado: {}"
         }
       }
@@ -206,7 +206,7 @@
       "last_mod": "Última modificación",
       "last_printed": "Última impresión",
       "not_printed": "No impreso",
-      "fetching_files": "@:general.fetching archivos…",
+      "fetching_files": "@:general.fetching Archivos…",
       "no_files_found": "¡No se encontraron archivos!",
       "no_matches_file_pattern": "¡Solo se permiten letras, números, guiones bajos, guiones y puntos!",
       "file_name_in_use": "¡El nombre del archivo ya está en uso!",
@@ -214,7 +214,7 @@
         "preheat": "Precalentar",
         "print": "Imprimir",
         "general_card": {
-          "path": "Camino",
+          "path": "Ruta",
           "last_mod": "Última modificación",
           "last_printed": "Última impresión",
           "no_data": "Sin datos"
@@ -227,30 +227,30 @@
           "filament_weight": "Peso",
           "filament_length": "Longitud",
           "est_print_time": "Tiempo estimado de impresión",
-          "slicer": "Cortadora usada",
+          "slicer": "Slicer usado",
           "nozzle_diameter": "Diámetro de la boquilla",
           "layer_higher": "Altura de capa",
           "first_layer": "Primera capa",
           "others": "Otros",
           "first_layer_temps": "@:pages.files.details.meta_card.first_layer - Temperaturas",
-          "first_layer_temps_value": "@:pages.dashboard.general.temp_card.hotend: {}°C\n"
+          "first_layer_temps_value": "@:pages.dashboard.general.temp_card.hotend: {}°C\n@:pages.dashboard.general.temp_card.bed: {}°C"
         },
         "stat_card": {
           "title": "Estadísticas"
         },
         "preheat_dialog": {
-          "title": "@:páginas.archivos.detalles.precalentar?",
-          "body": "Temperaturas objetivo\n"
+          "title": "@:pages.files.details.preheat ?",
+          "body": "Temperaturas objetivo\nExtrusor: {}°C\nCama: {}°C"
         },
         "preheat_snackbar": {
           "title": "Precalentamiento iniciado",
-          "body": "Extrusora: {}°C\n"
+          "body": "Extrusor: {}°C\nCama: {}°C"
         },
         "spoolman_warnings": {
           "insufficient_filament_title": "Filamento insuficiente",
-          "insufficient_filament_body": "Al carrete activo solo le quedan {} filamento, lo cual no es suficiente para este archivo.\n",
-          "material_mismatch_title": "Falta de coincidencia de materiales",
-          "material_mismatch_body": "El material del archivo {} no coincide con el material del spool activo {}.\n"
+          "insufficient_filament_body": "A la bobina activa solo le quedan {} filamento, lo cual no es suficiente para este archivo.\nPulsa para cambiar la bobina activa.",
+          "material_mismatch_title": "Los materiales no coinciden",
+          "material_mismatch_body": "El material del archivo {} no coincide con el material del spool activo {}.\nPulsa para cambiar la bobina activa."
         }
       }
     },
@@ -265,14 +265,14 @@
         "use_offset_pos": "Mostrar coordenadas con el desplazamiento aplicado.",
         "lcFullCam": "Cámara web en pantalla completa en modo horizontal",
         "language": "Idioma",
-        "companion": "¿Quieres recibir notificaciones remotas?\n ",
-        "sliders_grouping": "Tarjetas deslizantes de grupo"
+        "companion": "¿Quieres recibir notificaciones remotas?\nLearn how to setup Mobileraker's Companion on its ",
+        "sliders_grouping": "Agrupar Tarjetas con sliders"
       },
       "notification": {
         "title": "Notificación",
         "progress_label": "Notificación de progreso",
         "progress_helper": "Intervalo de actualización para la notificación del progreso de la impresión",
-        "state_label": "Notificación estatal",
+        "state_label": "Notificación de estado",
         "state_helper": "Estados que emiten una notificación de cambio de estado",
         "no_permission_title": "¡Sin permiso de notificación!",
         "no_permission_desc": "No se pueden mostrar notificaciones.\n",
@@ -288,26 +288,26 @@
         "title": "Desarrollador",
         "crashlytics": "Habilitar informes de Crashlytics"
       },
-      "imprint": "Privacidad/Impressum"
+      "imprint": "Privacy/Impressum"
     },
     "printer_edit": {
       "title": "Editar {}",
       "import_settings": "Importar ajustes",
       "remove_printer": "Quitar impresora",
       "no_values_found": "¡No se encontraron valores!",
-      "fetching_additional_settings": "@:general.obteniendo configuraciones adicionales de la red…",
+      "fetching_additional_settings": "@:general.fetching configuraciones adicionales de la red…",
       "could_not_fetch_additional": "¡No se pudieron recuperar configuraciones adicionales!",
       "fetch_error_hint": "Asegúrese de que la máquina sea accesible y que Mobileraker esté conectado a ella.",
-      "reset_notification_registry": "Borrar registro de dispositivo de notificación",
+      "reset_notification_registry": "Borrar registro de notificaciones del dispositivo ",
       "configure_remote_connection": "Configurar conexión remota",
       "store_error": {
         "title": "¡Error al guardar!",
-        "message": "¡Algunos campos contienen valores no válidos!\n",
+        "message": "¡Algunos campos contienen valores no válidos!\nPlease make sure all fields are valid.",
         "unexpected_error": "¡Ocurrió un error inesperado al intentar guardar los datos de la máquina!"
       },
       "confirm_deletion": {
         "title": "Borrar {}?",
-        "body": "Está a punto de eliminar la impresora '{}' conectada en '{}'.\n\n"
+        "body": "Estás a punto de eliminar la impresora '{}' conectada en '{}'.\n\nConfirma tu acción."
       },
       "general": {
         "displayname": "Nombre para mostrar",
@@ -324,9 +324,9 @@
       },
       "ssl": {
         "title": "SSL - Configuración",
-        "pin_certificate_label": "Fijación de huellas dactilares de certificado",
-        "pin_certificate_helper": "Seleccione un archivo de certificado en formato PEM para fijación SSL",
-        "self_signed": "Confíe en los certificados autofirmados"
+        "pin_certificate_label": "Certificate Fingerprint Pinning",
+        "pin_certificate_helper": "Seleccione un archivo de certificado en formato PEM para SSL-Pinning",
+        "self_signed": "Confiar en los certificados autofirmados"
       },
       "motion_system": {
         "title": "Sistema de movimiento",
@@ -366,7 +366,7 @@
         "read_only": "La cámara web es de solo lectura"
       },
       "macros": {
-        "new_macro_grp": "Nueva macro: grupo",
+        "new_macro_grp": "Nuevo Grupo de macros",
         "no_macros_available": "¡No hay macros disponibles!",
         "no_macros_found": "¡No se encontraron macros!",
         "no_macros_in_grp": "¡No hay macros en el grupo!",
@@ -381,13 +381,13 @@
       },
       "presets": {
         "no_presets": "¡No se agregaron ajustes preestablecidos!",
-        "hotend_temp": "@:pages.dashboard.general.temp_card.hotend Temperatura",
-        "bed_temp": "@:pages.dashboard.general.temp_card.bed Temperatura",
-        "new_preset": "Nuevo preestablecido"
+        "hotend_temp": "Temperatura @:pages.dashboard.general.temp_card.hotend",
+        "bed_temp": "Temperatura @:pages.dashboard.general.temp_card.bed",
+        "new_preset": "Nuevo Preset"
       },
       "confirm_fcm_reset": {
-        "title": "¿Borrar el registro del dispositivo de notificación?",
-        "body": "Está a punto de restablecer el registro del dispositivo, que se utiliza para determinar los dispositivos a los que el acompañante envía notificaciones.\n"
+        "title": "¿Borrar el registro de notificaciones del dispositivo?",
+        "body": "Estás a punto de restablecer el registro del dispositivo, que se utiliza para determinar los dispositivos a los que se envían notificaciones.\nTo re-establish push notifications, you will need to restart the app on all devices and connect them to the machine once again. \n\nConfirm your action."
       },
       "confirm_remote_interface_removal": {
         "title": {
