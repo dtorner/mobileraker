@@ -53,6 +53,7 @@ supportedLocales: const [
 Locale('af'),
 Locale('de'),
 Locale('en'),
+Locale('es', 'ES'),
 Locale('fr'),
 Locale('hu'),
 Locale('it'),
@@ -92,6 +93,7 @@ To edit an existing language file, follow these steps:
 - 🇧🇷 Portuguese Brasil, [@opastorello](https://github.com/opastorello)
 - 🇷🇴 Romanian, [@vaxxi](https://github.com/vaxxi)
 - 🇷🇺 Russian, [@teuchezh](https://github.com/teuchezh)
+- es Spanish, [@dtorner](https://github.com/dtorner)
 - 🇹🇷 Turkish, [@larinspub ](https://github.com/larinspub)
 - 🇺🇦 Ukrainian, [@iZonex](https://github.com/iZonex)
 
